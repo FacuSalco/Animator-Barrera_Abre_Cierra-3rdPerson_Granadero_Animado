@@ -20,13 +20,11 @@ public class BarreraScript : MonoBehaviour
 
     void OnTriggerEnter()
     {
-        Debug.Log("Ingreso detectado");
         anim.SetBool("estaAdentro", true);
     }
 
     void OnTriggerExit()
     {
-        Debug.Log("Salida detectada");
         anim.SetBool("estaAdentro", false);
     }
 }
